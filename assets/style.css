@@ -1,0 +1,103 @@
+
+.header{
+    width: 100%;
+    background-color:gray;
+}
+
+
+
+.main-menu{
+    width: 100%;
+}
+
+
+
+/* ここからmain！！！！！！！！！！！！！！！！！ */
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.bar{
+    width: 300px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+
+.premium-btn{
+    padding: 20px;
+    background-color: grey;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+
+
+/* ここからは詳細項目！！！！！！！！！！！！！！！！！ */
+
+
+.about{
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+
+
+
+/* ここからレッツプレイ */
+
+.letsplay{
+background-image: url("../img/back.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 400px;
+margin-top: 80px;
+}
+
+.letsplay div{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.letsplay div h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.submit-btn{
+    color:white;
+    background-color: grey;
+    border-color: grey;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+/* ここからサーチボタン */
+.music-search-zone{
+    height: 100vh;
+}
+
+.music-search{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+
+/*ここからfooter！！！！！！！！！！*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+}
